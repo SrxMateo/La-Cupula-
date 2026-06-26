@@ -14,7 +14,7 @@ import {
   Ticket,
 } from "lucide-react";
 import heroImage from "@/assets/la-cupula-hero.jpg";
-import laCupulaLogo from "@/assets/la-cupula-logo.asset.json";
+import laCupulaLogo from "@/assets/la-cupula-logo.png";
 import galeriaImage1 from "@/assets/la-cupula-galeria-1.jpg";
 import galeriaImage2 from "@/assets/la-cupula-galeria-2.jpg";
 import galeriaImage3 from "@/assets/la-cupula-galeria-3.jpg";
