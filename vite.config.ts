@@ -12,9 +12,12 @@ export default defineConfig({
     tanstackStart({
       server: { entry: "server" },
     }),
-    nitro({ defaultPreset: "cloudflare-module" }),
+    nitro({
+      preset: process.env.GITHUB_ACTIONS ? "github-pages" : "cloudflare-module",
+    }),
     react(),
   ],
+  base: process.env.GITHUB_ACTIONS ? "/La-Cupula-/" : "/",
   resolve: {
     alias: {
       "@": "/src",
