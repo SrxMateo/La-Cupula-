@@ -64,7 +64,7 @@ function Index() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
           <a href="#inicio" className="inline-flex items-center">
             <img
-              src={laCupulaLogo.url}
+              src={laCupulaLogo}
               alt="Logo de La Cúpula"
               className="h-10 w-auto object-contain"
               loading="lazy"
